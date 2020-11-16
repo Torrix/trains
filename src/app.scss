@@ -1,0 +1,36 @@
+@tailwind base;
+
+@tailwind components;
+
+.VT {@apply text-teal-600;}
+.NT {@apply text-blue-500;}
+.SW {@apply text-blue-700;}
+.XR {@apply text-blue-700;}
+.SR {@apply text-blue-700;}
+.GN {@apply text-blue-300;}
+.TL {@apply text-pink-500;}
+.HX {@apply text-indigo-700;}
+.SN {@apply text-green-500;}
+.GW {@apply text-green-700;}
+.TP {@apply text-blue-400;}
+.CH {@apply text-blue-400;}
+.LM {@apply text-indigo-800;}
+.ME {@apply text-yellow-400;}
+.GR {@apply text-red-600;}
+.AW {@apply text-red-600;}
+.LE {@apply text-red-600;}
+.EM {@apply text-pink-800;}
+.XC {@apply text-pink-700;}
+.CS {@apply text-teal-600;}
+.LO {@apply text-orange-500;}
+
+@tailwind utilities;
+
+@font-face {
+  font-family: stdTeletextFont;
+  src: url('/fonts/teletext.otf') format("opentype");
+}
+
+* {
+  font-family: 'stdTeletextFont', sans-serif;
+}
